@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="TagExpo">
+	
+  <test name="ChromeTest">
+	  <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="crossbrowser_testing.Cross_browser_Test"/>
+    </classes>
+   </test> <!-- Test -->
+  
+    <test name="FirefoxTest">
+	<parameter name="browser" value="Firefox"/>
+	<classes>
+      <class name="crossbrowser_testing.Cross_browser_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="EdgeTest">
+  <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="crossbrowser_testing.Cross_browser_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
